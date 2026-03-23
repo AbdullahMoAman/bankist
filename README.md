@@ -7,7 +7,7 @@ A vanilla JavaScript banking application with locale-aware formatting, session m
 ## 🚀 Demo Accounts
 
 | Username | PIN  |
-|----------|------|
+| -------- | ---- |
 | `am`     | 1111 |
 | `sa`     | 2222 |
 | `ks`     | 3333 |
@@ -25,11 +25,11 @@ Once authenticated, the dashboard appears showing your balance, transaction hist
 
 ### 2. Reading the Dashboard
 
-| Section | Description |
-|--------|-------------|
-| **Movements** | Full list of deposits (green) and withdrawals (red), each with a relative date — *Today*, *Yesterday*, *N days ago*, or the full formatted date |
-| **Balance** | Your current total, displayed in the top right in your account's currency |
-| **Summary** | Totals at the bottom — money in, money out, and interest earned on deposits |
+| Section       | Description                                                                                                                                     |
+| ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Movements** | Full list of deposits (green) and withdrawals (red), each with a relative date — _Today_, _Yesterday_, _N days ago_, or the full formatted date |
+| **Balance**   | Your current total, displayed in the top right in your account's currency                                                                       |
+| **Summary**   | Totals at the bottom — money in, money out, and interest earned on deposits                                                                     |
 
 ---
 
@@ -56,8 +56,8 @@ The bank approves a loan only if **at least one of your existing deposits is ≥
 
 ### 5. Closing Your Account
 
-1. Enter your **own username** in the *Confirm user* field
-2. Enter your **PIN** in the *Confirm PIN* field
+1. Enter your **own username** in the _Confirm user_ field
+2. Enter your **PIN** in the _Confirm PIN_ field
 3. Click **→** to permanently delete the account
 
 The dashboard will disappear and the account is removed from the application.
